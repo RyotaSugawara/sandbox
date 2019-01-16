@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/work
+    steps:
+      - checkout
+      - run:
+          name: Make HTML
+          command: |
+            mkdir -p /tmp/artifacts
+            cp /tmp/artifacts/artifact.html
+      - store_artifacts:
+          path: /tmp/artifacts

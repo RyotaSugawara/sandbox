@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "sandbox",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RyotaSugawara/sandbox.git"
+  },
+  "keywords": [],
+  "author": "ryo_suga <ryo.suga.dev@gmail.com> (http://banseivlog.hatenablog.jp/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RyotaSugawara/sandbox/issues"
+  },
+  "homepage": "https://github.com/RyotaSugawara/sandbox#readme"
+}

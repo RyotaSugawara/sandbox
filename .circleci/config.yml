@@ -1,6 +1,8 @@
 version: 2
 jobs:
   build:
+    docker:
+      - image: circleci/buildpack-deps
     working_directory: ~/work
     steps:
       - checkout
@@ -8,6 +10,6 @@ jobs:
           name: Make HTML
           command: |
             mkdir -p /tmp/artifacts
-            cp /tmp/artifacts/artifact.html
+            cp src/ /tmp/artifacts/artifact.html
       - store_artifacts:
           path: /tmp/artifacts
